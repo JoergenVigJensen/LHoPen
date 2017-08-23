@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHoPen", "LHoPen\LHoPen.csproj", "{7B150685-DDB6-46D8-8F6C-8978FD8DE90C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHoPen.Web", "LHoPen\LHoPen.Web.csproj", "{7B150685-DDB6-46D8-8F6C-8978FD8DE90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHoPen.DAL", "LHoPen.DAL\LHoPen.DAL.csproj", "{85ECA36F-0D48-4701-9DC3-F76CC9B630CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7B150685-DDB6-46D8-8F6C-8978FD8DE90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B150685-DDB6-46D8-8F6C-8978FD8DE90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B150685-DDB6-46D8-8F6C-8978FD8DE90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85ECA36F-0D48-4701-9DC3-F76CC9B630CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85ECA36F-0D48-4701-9DC3-F76CC9B630CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85ECA36F-0D48-4701-9DC3-F76CC9B630CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85ECA36F-0D48-4701-9DC3-F76CC9B630CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
